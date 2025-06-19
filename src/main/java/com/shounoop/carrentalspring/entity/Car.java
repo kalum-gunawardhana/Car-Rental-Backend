@@ -4,8 +4,6 @@ import com.shounoop.carrentalspring.dto.CarDto;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.Date;
-
 @Entity
 @Data
 @Table(name = "cars")

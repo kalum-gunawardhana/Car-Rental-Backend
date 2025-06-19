@@ -3,8 +3,6 @@ package com.shounoop.carrentalspring.dto;
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.Date;
-
 @Data
 public class CarDto {
     private Long id;

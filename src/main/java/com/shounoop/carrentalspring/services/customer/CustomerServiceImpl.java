@@ -11,7 +11,6 @@ import com.shounoop.carrentalspring.repository.CarRepository;
 import com.shounoop.carrentalspring.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;

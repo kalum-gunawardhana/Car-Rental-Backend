@@ -2,7 +2,6 @@ package com.shounoop.carrentalspring.dto;
 
 import com.shounoop.carrentalspring.enums.BookCarStatus;
 import lombok.Data;
-
 import java.util.Date;
 
 @Data

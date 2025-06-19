@@ -13,7 +13,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
@@ -64,7 +63,7 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public CarDto getCarById(Long id) {
-        return carRepository.findById(id).map(Car::getCarDto).orElse(null); // map() is a method that applies a given function to each element of a stream
+        return carRepository.findById(id).map(Car::getCarDto).orElse(null);
     }
 
     @Override

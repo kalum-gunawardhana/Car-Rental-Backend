@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -18,7 +17,6 @@ import java.util.List;
 public class AdminController {
     private final AdminService adminService;
 
-    // ? is a wildcard that represents an unknown type
     @PostMapping("/car")
     public ResponseEntity<?> postCar(@ModelAttribute CarDto carDto) throws IOException {
         boolean isSuccessful = adminService.postCar(carDto);
